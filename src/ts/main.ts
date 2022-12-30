@@ -1,6 +1,7 @@
 import "../assets/scss/style.scss";
 
-import { modal, IModal } from "./modules";
+import { modal } from "./modules";
+import type { IModal } from "./modules";
 
 window.addEventListener("DOMContentLoaded", () => {
   const modalEditSelectors = {

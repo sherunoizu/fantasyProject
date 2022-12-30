@@ -1,2 +1,4 @@
 export { counter } from "./counter";
-export { modal, IModal } from "./modal";
+export { modal } from "./modal";
+
+export type { IModal } from "./modal";
