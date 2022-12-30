@@ -1,5 +1,16 @@
 .modals {
   .modalEdit {
-    display: none;
+    .container {
+      width: 50%;
+      height: 50%;
+      border: 1px solid #888;
+    }
+    .close {
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      font-size: 25px;
+      padding: 5px 15px;
+    }
   }
 }

@@ -1,7 +1,12 @@
 import "../assets/scss/style.scss";
 
-import { counter } from "./modules/counter";
+import { modal, IModal } from "./modules";
 
 window.addEventListener("DOMContentLoaded", () => {
-  counter();
+  const modalEditSelectors = {
+    trigger: ".personal__btn",
+    selector: ".modalEdit",
+  } as IModal;
+
+  modal(modalEditSelectors);
 });
