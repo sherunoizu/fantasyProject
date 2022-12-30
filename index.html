@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <div class="layout">
+          <div class="personal">
+            <img
+              src="src/assets/images/avatars/2.png"
+              alt=""
+              class="personal_img"
+            />
+            <div class="personal__bio">
+              <p class="personal__bio_title">Биография</p>
+              <ul class="personal__bio_ul">
+                <li class="personal__bio_li">Пол</li>
+                <li class="personal__bio_li">Возраст</li>
+                <li class="personal__bio_li">Навыки</li>
+                <li class="personal__bio_li">О себе</li>
+              </ul>
+            </div>
+            <button class="personal__btn">Редактировать</button>
+          </div>
+          <div class="map">
+            <ul class="map__header">
+              <li class="map__header_item active">
+                <img
+                  class="img_small"
+                  src="src/assets/images/maps/map_1.jpg"
+                  alt=""
+                />
+              </li>
+              <li class="map__header_item">
+                <img
+                  class="img_small"
+                  src="src/assets/images/maps/map_2.jpg"
+                  alt=""
+                />
+              </li>
+              <li class="map__header_item">
+                <img
+                  class="img_small"
+                  src="src/assets/images/maps/map_3.jpg"
+                  alt=""
+                />
+              </li>
+              <li class="map__header_item">
+                <img
+                  class="img_small"
+                  src="src/assets/images/maps/map_4.jpg"
+                  alt=""
+                />
+              </li>
+            </ul>
+            <div class="map__content">
+              <img
+                class="img_big"
+                src="src/assets/images/maps/map_1.jpg"
+                alt=""
+              />
+              <div class="map__content_description">
+                Yharnam's Victorian architecture is reminiscent of late 19th
+                Century European cities including Paris, Edinburgh, Cologne and
+                London. Residents of Yharnam are called Yharnamites. The town
+                appears rather grim and decadent and has been ravaged by a
+                mysterious plague, becoming infested with dangerous beasts and
+                demented citizens.
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game__types">
+              <div class="game__types_additional">
+                <div class="checkbox" aria-hidden="true">
+                  <input type="checkbox" name="checkbox" id="c1" />
+                  <label id="one-live" for="c1">Одна жизнь</label>
+                </div>
+                <div class="checkbox" aria-hidden="true">
+                  <input type="checkbox" name="checkbox" id="c2" />
+                  <label id="checkpoints" for="c2">Контрольные точки</label>
+                </div>
+              </div>
+              <div class="game__types_diffictulty">
+                <div class="checkbox" aria-hidden="true">
+                  <input type="radio" name="checkbox" id="r1" />
+                  <label id="checkpoints" for="r1">Легкий</label>
+                </div>
+                <div class="checkbox" aria-hidden="true">
+                  <input type="radio" name="checkbox" id="r2" />
+                  <label id="checkpoints" for="r2">Средний</label>
+                </div>
+                <div class="checkbox" aria-hidden="true">
+                  <input type="radio" name="checkbox" id="r3" />
+                  <label id="checkpoints" for="r3">Сложный</label>
+                </div>
+              </div>
+            </div>
+            <button class="game__btn">Начать игру</button>
+          </div>
+        </div>
+      </div>
+      <div class="modals">
+        <div class="modalEdit">
+          <div class="container">radio</div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/ts/main.ts"></script>
+  </body>
+</html>
