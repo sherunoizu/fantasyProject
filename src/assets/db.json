@@ -1,0 +1,168 @@
+{
+  "avatars": [
+    {
+      "src": "src/assets/images/avatars/2.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/avatars/15.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/avatars/16.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/avatars/32.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/avatars/33.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/avatars/46.png",
+      "description": "asdfasdfasdfasdf"
+    }
+  ],
+  "maps": [
+    {
+      "src": "src/assets/images/maps/map_1.jpg",
+      "description": "First map."
+    },
+    {
+      "src": "src/assets/images/maps/map_2.jpg",
+      "description": "Second map"
+    },
+    {
+      "src": "src/assets/images/maps/map_3.jpg",
+      "description": "Third map"
+    },
+    {
+      "src": "src/assets/images/maps/map_4.jpg",
+      "description": "Fourth map"
+    }
+  ],
+  "skills": [
+    {
+      "src": "src/assets/images/skills/4.png",
+      "description": "skill 1"
+    },
+    {
+      "src": "src/assets/images/skills/6.png",
+      "description": "skill 2"
+    },
+    {
+      "src": "src/assets/images/skills/7.png",
+      "description": "skill 3"
+    },
+    {
+      "src": "src/assets/images/skills/10.png",
+      "description": "skill 4"
+    },
+    {
+      "src": "src/assets/images/skills/12.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/13.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/14.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/15.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/18.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/19.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/21.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/23.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/24.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/25.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/26.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/28.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/29.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/30.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/31.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/35.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/37.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/38.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/39.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/40.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/41.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/42.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/44.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/45.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/48.png",
+      "description": "asdfasdfasdfasdf"
+    },
+    {
+      "src": "src/assets/images/skills/50.png",
+      "description": "asdfasdfasdfasdf"
+    }
+  ]
+}

@@ -17,106 +17,94 @@
               class="personal_img"
             />
             <div class="personal__bio">
-              <p class="personal__bio_title">Биография</p>
+              <p class="personal__bio_title">Biography</p>
               <ul class="personal__bio_ul">
-                <li class="personal__bio_li">Пол</li>
-                <li class="personal__bio_li">Возраст</li>
-                <li class="personal__bio_li">Навыки</li>
-                <li class="personal__bio_li">О себе</li>
+                <li class="personal__bio_li" id="personal_gender">Gender:</li>
+                <li class="personal__bio_li" id="personal_age">Age:</li>
+                <li class="personal__bio_li" id="personal_skills">Skills:</li>
+                <li class="personal__bio_li" id="personal_prehistory">Prehistory:</li>
               </ul>
             </div>
-            <button class="personal__btn">Редактировать</button>
+            <button class="personal__btn">Edit character</button>
           </div>
           <div class="map">
-            <ul class="map__header">
-              <li class="map__header_item active">
-                <img
-                  class="img_small"
-                  src="src/assets/images/maps/map_1.jpg"
-                  alt=""
-                />
-              </li>
-              <li class="map__header_item">
-                <img
-                  class="img_small"
-                  src="src/assets/images/maps/map_2.jpg"
-                  alt=""
-                />
-              </li>
-              <li class="map__header_item">
-                <img
-                  class="img_small"
-                  src="src/assets/images/maps/map_3.jpg"
-                  alt=""
-                />
-              </li>
-              <li class="map__header_item">
-                <img
-                  class="img_small"
-                  src="src/assets/images/maps/map_4.jpg"
-                  alt=""
-                />
-              </li>
-            </ul>
-            <div class="map__content">
-              <img
-                class="img_big"
-                src="src/assets/images/maps/map_1.jpg"
-                alt=""
-              />
-              <div class="map__content_description">
-                Yharnam's Victorian architecture is reminiscent of late 19th
-                Century European cities including Paris, Edinburgh, Cologne and
-                London. Residents of Yharnam are called Yharnamites. The town
-                appears rather grim and decadent and has been ravaged by a
-                mysterious plague, becoming infested with dangerous beasts and
-                demented citizens.
-              </div>
-            </div>
+            <ul class="map__header"></ul>
+            <div class="map__content"></div>
           </div>
           <div class="game">
             <div class="game__types">
               <div class="game__types_additional">
                 <div class="checkbox" aria-hidden="true">
                   <input type="checkbox" name="checkbox" id="c1" />
-                  <label id="one-live" for="c1">Одна жизнь</label>
+                  <label id="one-life" for="c1">One life</label>
                 </div>
                 <div class="checkbox" aria-hidden="true">
                   <input type="checkbox" name="checkbox" id="c2" />
-                  <label id="checkpoints" for="c2">Контрольные точки</label>
+                  <label id="checkpoints" for="c2">Checkpoints</label>
                 </div>
               </div>
               <div class="game__types_diffictulty">
                 <div class="checkbox" aria-hidden="true">
                   <input type="radio" name="checkbox" id="r1" />
-                  <label id="checkpoints" for="r1">Легкий</label>
+                  <label id="checkpoints" for="r1">Easy</label>
                 </div>
                 <div class="checkbox" aria-hidden="true">
                   <input type="radio" name="checkbox" id="r2" />
-                  <label id="checkpoints" for="r2">Средний</label>
+                  <label id="checkpoints" for="r2">Middle</label>
                 </div>
                 <div class="checkbox" aria-hidden="true">
                   <input type="radio" name="checkbox" id="r3" />
-                  <label id="checkpoints" for="r3">Сложный</label>
+                  <label id="checkpoints" for="r3">Hard</label>
                 </div>
               </div>
             </div>
-            <button class="game__btn">Начать игру</button>
+            <button class="game__btn">Start game</button>
           </div>
         </div>
       </div>
       <div class="modals">
-        <div class="modalEdit">
+        <div class="modalEdit hide">
           <div class="container">
-            <h2 class="title">Редактор персонажа</h2>
+            <h2 class="title">Character editor</h2>
             <div class="modalEdit__wrapper">
+              <div class="modalEdit__skill-descr">
+                
+                <p>
+                  Click the skill once to see the description.<br>
+                  Double-click to select it for your character.
+                </p>
+                <hr>
+                <h3>Skill description</h3>
+              </div>
+              <div class="modalEdit__skills"></div>
               <div class="modalEdit__avatar"></div>
               <div class="modalEdit__description">
-                
+                <div class="modalEdit__input">
+                  <label for="gender">Gender</label>
+                  <select name="gender" id="gender">
+                    <option value="0">Choose gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </div>
+                <div class="modalEdit__input">
+                  <label for="age">Age</label>
+                  <input type="text" class="age" id="age" />
+                </div>
+                <div class="modalEdit__input">
+                  <label for="Prehistory">Prehistory</label>
+                  <textarea
+                    placeholder="Tell your story..."
+                    name="prehistory"
+                    id="prehistory"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
               </div>
             </div>
             <button class="close">&times;</button>
-            <button class="apply">Подтвердить</button>
+            <button class="confirm">Confirm</button>
           </div>
         </div>
       </div>
