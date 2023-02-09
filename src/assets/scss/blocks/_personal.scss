@@ -25,8 +25,16 @@
 
     &_li {
       list-style-type: none;
-      text-align-last: left;
+      text-align: left;
       text-transform: uppercase;
+      
+      p {
+        margin: 0;
+      }
+
+      img {
+        margin-left: 10px;
+      }
     }
   }
 
@@ -34,5 +42,20 @@
     display: block;
     margin: 0 auto;
     width: 450px;
+  }
+
+  .mini-skills {
+    width: 35px;
+    height: 35px;
+  }
+
+  #personal_skills {
+    display: flex;
+    align-items: center;
+  }
+
+  .prehistory {
+    text-transform: capitalize;
+    white-space: normal;
   }
 }
